@@ -62,7 +62,7 @@ def run():
     for sw in (s1, s2, s3):
         sw.cmd("ovs-ofctl add-flow {} dl_type=0x806,actions=flood".format(sw.name))
 
-    print("\n### Pings apos inserção de regras ###")
+    print("\n### Pings apos insercao de regras ###")
     s1.cmd("ovs-ofctl add-flow s1 dl_src=00:00:00:00:00:01,actions=output:3")
     s2.cmd("ovs-ofctl add-flow s2 dl_src=00:00:00:00:00:01,actions=output:2")
     s3.cmd("ovs-ofctl add-flow s3 dl_dst=00:00:00:00:00:05,actions=output:1")
