@@ -33,7 +33,7 @@ def run():
     net = Mininet(topo=topo, autoSetMacs=True, controller=None)
     net.start()
 
-    print("\n#### Inspeção dos hosts ####")
+    print("\n#### Inspecao dos hosts ####")
     CLI( net, script="inspec.sh")
 
     print("\n### Teste de ping ###")
