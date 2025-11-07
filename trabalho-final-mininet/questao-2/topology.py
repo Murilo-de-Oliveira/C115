@@ -34,10 +34,10 @@ def run():
     net.start()
 
     print("\n#### Inspecao dos hosts ####")
-    CLI( net, script="./inspec.sh")
+    CLI(net, script="inspec.sh")
 
     print("\n### Teste de ping ###")
-    CLI( net, script="./ping.sh")
+    CLI(net, script="ping.sh")
 
     print("\n### Limpar regras ###")
     for sw in ('s1', 's2', 's3'):
@@ -109,7 +109,7 @@ def run():
     print(host1.cmd('ovs-ofctl dump-flows s3'))
 
     print("\n### Teste de ping com as regras ###")
-    CLI( net, script="./ping.sh") 
+    CLI(net, script="ping.sh") 
 
     net.stop()
 
