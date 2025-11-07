@@ -136,7 +136,7 @@ lo        Link encap:Local Loopback
 
 ![desenho topologia](image-4.png)
 
-### e)
+### d) Faça testes de ping considerando os switches normais;
 
 #### Resultado
 ```bash
