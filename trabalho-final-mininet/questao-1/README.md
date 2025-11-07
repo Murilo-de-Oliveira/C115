@@ -399,7 +399,7 @@ c0
 ![Net4](image-10.png)
 
 ### c) Crie um desenho ilustrativo da topologia com todas as informações obtidas no item anterior;
-
+Nota: foi utilizado mermaid.js para o diagrama. Um visualizador online permite validar o código abaixo
 ```mermaid.js
 graph TD
 
@@ -546,6 +546,8 @@ graph TD
     %% S31 hosts 121–125
     s31 --> h121_125["h121–h125 (10.0.0.121 → 10.0.0.125)"]
 ```
+Exemplo de parte do diagrama
+![Exemplo de parte do diagrama](image-17.png)
 
 ### d) Execute testes de ping entre os diferentes nós, mostre os pacotes chegando nos nós com uso do comando tcpdump.
 
