@@ -1,3 +1,5 @@
+echo "Rodando Script"
+
 h1 ping -c 2 h2
 h1 ping -c 2 h3
 h1 ping -c 2 h4
